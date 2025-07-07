@@ -183,7 +183,8 @@ background-color: 	rgb(217, 119, 6);
     border-radius: 20px;
     margin-left: 20px;
     margin-top: 20px;
-    transition:max-height 2s ease-in-out;
+    opacity:1;
+    transition:max-height 2s ease-in-out,overflow 4s;
 }
 .nav:hover{
     max-height: 300px;
@@ -206,7 +207,7 @@ background-color: 	rgb(217, 119, 6);
 }
 .proj-scroll{
     animation-name: scroll;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
